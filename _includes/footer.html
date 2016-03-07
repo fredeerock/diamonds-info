@@ -1,31 +1,57 @@
 <footer>
   <div class="container">
+
+      <div class="row">
+          <div class="col-lg-10 col-lg-offset-1 text-center"> 
+            <h2>Authors</h2>
+            <hr class="small">
+          </div>
+        </div>
+
     <div class="row">
-      <div class="col-lg-10 col-lg-offset-1 text-center">
-        <h4><strong>{{ site.owner }}</strong>
+
+
+      
+      <div class="col-md-4 text-center">
+        <h4><strong>Derick Ostrenko</strong>
         </h4>
         <p>
-          {% for address in site.address %}
-          {{ address.line }}<br>
-          {% endfor %}
+          asdjhf ksajdhfkjsadhfkj sadhfks jadfhkjsa df
         </p>
         <ul class="list-unstyled">
-          <li><i class="fa fa-phone fa-fw"></i> {{ site.telephone }}</li>
           <li><i class="fa fa-envelope-o fa-fw"></i>  <a href="mailto:{{ site.email }}">{{ site.email }}</a>
           </li>
         </ul>
-        <br>
-        <ul class="list-inline">
-          <li>
-            <a href="https://facebook.com/{{ site.facebook_username }}"><i class="fa fa-facebook fa-fw fa-3x"></i></a>
-          </li>
-          <li>
-            <a href="https://twitter.com/{{ site.twitter_username }}"><i class="fa fa-twitter fa-fw fa-3x"></i></a>
-          </li>
-          <li>
-            <a href="https://github.com/{{ site.github_username }}"><i class="fa fa-github fa-fw fa-3x"></i></a>
+       
+      </div>
+      <div class="col-md-4 text-center">
+        <h4><strong>Jesse Allison</strong>
+        </h4>
+        <p>
+          asdjhf ksajdhfkjsadhfkj sadhfks jadfhkjsa df
+        </p>
+        <ul class="list-unstyled">
+          <li><i class="fa fa-envelope-o fa-fw"></i>  <a href="mailto:jtallison@lsu.edu">jtallison@lsu.edu</a>
           </li>
         </ul>
+        
+      </div>
+       <div class="col-md-4 text-center">
+        <h4><strong>Vincent Cellucci</strong>
+        </h4>
+        <p>
+          asdjhf ksajdhfkjsadhfkj sadhfks jadfhkjsa df
+        </p>
+        <ul class="list-unstyled">
+          <li><i class="fa fa-envelope-o fa-fw"></i>  <a href="mailto:vcelluc1@lsu.edu">vcelluc1@lsu.edu</a>
+          </li>
+        </ul>
+        
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-lg-10 col-lg-offset-1 text-center">
+        <br>
         <hr class="small">
         <p class="text-muted">Copyright &copy; {{ site.copyright }} 20{{ site.time | date: '%y' }}</p>
       </div>

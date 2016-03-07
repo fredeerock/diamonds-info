@@ -15,11 +15,11 @@ facebook_username:
 twitter_username:
 github_username: fredeerock
 address:
-  - line: 3481 Melrose Hill St
-  - line: "Los Angeles, CA 90029"
+  - line:
+  - line:
   # Feel free to add more lines here 
-telephone: (123) 456-7890
-copyright: Your Site
+telephone:
+copyright:
 
 # API settings
 google_api_key: AIzaSyA8H0jVz_6Hc273rqNYKQ6AAiBvQfVKmYQ
