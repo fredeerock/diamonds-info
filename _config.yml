@@ -6,7 +6,7 @@ description: > # this means to ignore newlines until "baseurl:"
   line in _config.yml. It will appear in your document head meta (for
   Google search results) and in your feed.xml site description.
 baseurl: "" # the subpath of your site, e.g. /blog/
-url: "" # the base hostname & protocol for your site
+url: "http://yourdomain.com" # the base hostname & protocol for your site
 
 # User setting
 owner: Derick Ostrenko
@@ -15,14 +15,14 @@ facebook_username:
 twitter_username:
 github_username: fredeerock
 address:
-  - line:
-  - line:
+  - line: 3481 Melrose Hill St
+  - line: "Los Angeles, CA 90029"
   # Feel free to add more lines here 
-telephone:
-copyright:
+telephone: (123) 456-7890
+copyright: Your Site
 
 # API settings
-google_api_key:
+google_api_key: AIzaSyA8H0jVz_6Hc273rqNYKQ6AAiBvQfVKmYQ
 
 # Build settings
 markdown: kramdown
