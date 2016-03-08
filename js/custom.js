@@ -42,18 +42,17 @@ $(function() {
     xobj.send(null);  
  }
 
-      (function init() {
-         loadJSON(function(response) {
-          // Parse JSON string into object
-            var actual_JSON = JSON.parse(response);
-            var genpoem = actual_JSON[0].generatedPoem.join("\n\n");
-            console.log(actual_JSON);
-            document.getElementById("txt").innerHTML = genpoem;
+(function init() {
+   loadJSON(function(response) {
+    // Parse JSON string into object
+      var actual_JSON = JSON.parse(response);
+      var genpoem = actual_JSON[0].generatedPoem.reverse().join("\n\n");
+      console.log(actual_JSON);
+      document.getElementById("txt").innerHTML = genpoem;
+  });
+})();
 
-         });
-        })();
-
-        $('.carousel-control').click(function(e){
+$('.carousel-control').click(function(e){
   e.preventDefault();
   $('#myCarousel').carousel( $(this).data() );
 });
