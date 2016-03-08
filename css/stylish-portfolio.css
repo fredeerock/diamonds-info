@@ -242,7 +242,7 @@ hr.small {
     pointer-events: none;
 }
 
-pre {
+.call-to-action pre {
     word-break: normal;
     word-wrap: normal;
     white-space: pre-wrap;       /* CSS 3 */
