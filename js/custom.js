@@ -44,10 +44,8 @@ $(function() {
 
 (function init() {
    loadJSON(function(response) {
-    // Parse JSON string into object
       var actual_JSON = JSON.parse(response);
       var genpoem = actual_JSON[0].generatedPoem.reverse().join("\n\n");
-      console.log(actual_JSON);
       document.getElementById("txt").innerHTML = genpoem;
   });
 })();
