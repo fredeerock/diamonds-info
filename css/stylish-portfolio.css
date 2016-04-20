@@ -258,3 +258,11 @@ pre {
     background-color: #673AB7;
 }
 
+a {
+    color: rgb(103, 58, 183);
+}
+
+a:hover {
+    color: rgb(20, 0, 100);
+}
+
