@@ -254,3 +254,7 @@ pre {
     overflow: hidden;
 }
 
+.bg-primary {
+    background-color: #673AB7;
+}
+
